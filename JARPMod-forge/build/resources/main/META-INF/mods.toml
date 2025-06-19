@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="jarpmod"
+version="1.0.0"
+displayName="Just a Regular Player"
+authors="KyraDev"
+description='''This mod lets you spawn a fake player entity to keep mobfarms running while you're enjoying the game.'''
+
+[[dependencies.jarpmod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.jarpmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
