@@ -7,7 +7,12 @@ modId="jarpmod"
 version="1.0.0"
 displayName="Just a Regular Player"
 authors="KyraDev"
-description='''This mod lets you spawn a fake player entity to keep mobfarms running while you're enjoying the game.'''
+description='''This mod lets you spawn a fake player entity to keep mob farms running without the need to stay afk so you can enjoy the game more.'''
+logoFile="assets/jarpmod/logo.png" # se hai un logo da mostrare nel launcher/mod list
+displayURL="https://github.com/KyraDev/JustARegularPlayer" # link al repo o pagina mod
+credits="Created by KyraDev"
+issueTrackerURL="https://github.com/KyraDev/JustARegularPlayer/issues" # se usi GitHub issues
+updateJSONURL="https://raw.githubusercontent.com/KyraDev/JustARegularPlayer/master/update.json" # opzionale, per auto update
 
 [[dependencies.jarpmod]]
 modId="forge"
