@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  B",
+    "BC ",
+    "DB "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:blaze_powder"
+    },
+    "D": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "jarpmod:fire_stick",
+    "count": 1
+  }
+}
