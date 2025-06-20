@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "jarpmod:item/fire_stick"
+  }
+}

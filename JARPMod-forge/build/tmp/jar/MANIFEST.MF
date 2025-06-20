@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: jarpmod
+Specification-Vendor: KyraDev
+Specification-Version: 1
+Implementation-Title: JARPMod-forge
+Implementation-Version: 1.0.0
+Implementation-Vendor: KyraDev
+Implementation-Timestamp: 2025-06-20T04:13:22+0200
+
