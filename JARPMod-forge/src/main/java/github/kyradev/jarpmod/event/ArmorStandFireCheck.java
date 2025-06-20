@@ -1,56 +1,56 @@
 package github.kyradev.jarpmod.event;
 
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.world.entity.decoration.ArmorStand;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraft.network.chat.Component;
 
-import java.util.List;
 import java.util.UUID;
 
 @Mod.EventBusSubscriber
 public class ArmorStandFireCheck {
 
+    private static final int BURN_DURATION_TICKS = 60; // 3 secondi
+
     @SubscribeEvent
-    public static void onWorldTick(TickEvent.WorldTickEvent event) {
+    public static void onServerTick(TickEvent.ServerTickEvent event) {
         if (event.phase != TickEvent.Phase.END) return;
-        if (event.world.isClientSide()) return;
 
-        Level world = event.world;
+        for (ServerLevel level : event.getServer().getAllLevels()) {
+            for (Entity entity : level.getEntities().getAll()) {
+                if (entity instanceof ArmorStand armorStand && armorStand.getPersistentData().contains("FakePlayerUUID")) {
+                    var tag = armorStand.getPersistentData();
 
-        // Cerca tutti gli ArmorStand nel mondo
-        List<ArmorStand> armorStands = world.getEntitiesOfClass(ArmorStand.class, entity -> entity.isOnFire());
+                    if (armorStand.isOnFire()) {
+                        if (!tag.contains("BurnStartTick")) {
+                            tag.putInt("BurnStartTick", (int) level.getGameTime());
+                        } else {
+                            long burnStart = tag.getInt("BurnStartTick");
+                            long elapsed = level.getGameTime() - burnStart;
 
-        for (ArmorStand armorStand : armorStands) {
-            if (!armorStand.isAlive()) continue;
-            if (!armorStand.getTags().contains("FakePlayerLinked")) continue;
+                            if (elapsed >= BURN_DURATION_TICKS) {
+                                UUID fakePlayerUUID = tag.getUUID("FakePlayerUUID");
+                                Entity fakePlayer = level.getEntity(fakePlayerUUID);
 
-            // Invia messaggio per debug
-            armorStand.sendSystemMessage(Component.literal("§c[DEBUG] ArmorStand è in fiamme!"));
+                                // 🎵 Riproduce il suono della morte della strega
+                                level.playSound(null, armorStand.blockPosition(), SoundEvents.WITCH_DEATH, SoundSource.HOSTILE, 1.0F, 1.0F);
 
-            // Recupera l’UUID dal tag NBT o tag Forge
-            UUID uuid = null;
-            try {
-                uuid = UUID.fromString(armorStand.getPersistentData().getString("FakePlayerUUID"));
-            } catch (Exception ignored) {}
+                                if (fakePlayer != null && !fakePlayer.isRemoved()) {
+                                    fakePlayer.remove(Entity.RemovalReason.KILLED);
+                                }
 
-            if (uuid == null) continue;
-
-            // Rimuovi il fake player se ancora presente
-            Entity maybeFake = ((ServerLevel) world).getEntity(uuid);
-            if (maybeFake != null) {
-                maybeFake.remove(Entity.RemovalReason.DISCARDED);
+                                armorStand.remove(Entity.RemovalReason.KILLED);
+                            }
+                        }
+                    } else {
+                        tag.remove("BurnStartTick");
+                    }
+                }
             }
-
-            // Rimuovi anche l’armor stand stesso
-            armorStand.discard(); // oppure armorStand.kill(); se vuoi ucciderlo
-
-            // (facoltativo) rimuovi il tag per evitare chiamate multiple
-            armorStand.getTags().remove("FakePlayerLinked");
         }
     }
 }

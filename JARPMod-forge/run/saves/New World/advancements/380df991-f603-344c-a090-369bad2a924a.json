@@ -19,7 +19,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:spider": "2025-06-20 02:00:12 +0200"
+      "minecraft:skeleton": "2025-06-20 02:35:39 +0200",
+      "minecraft:spider": "2025-06-20 02:00:12 +0200",
+      "minecraft:zombie": "2025-06-20 02:25:03 +0200"
     },
     "done": false
   },
@@ -68,6 +70,18 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-06-20 02:00:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-06-20 02:34:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-06-20 02:35:40 +0200"
     },
     "done": true
   },
