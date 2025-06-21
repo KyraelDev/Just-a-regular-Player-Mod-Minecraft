@@ -12,7 +12,7 @@ import net.minecraft.world.item.Items;
 
 public class FakePlayerSpawner {
 
-    private static final String NAME = "[JustARegularPlayer]";
+    private static final String NAME = "Jarpie";
 
     public static void spawn(ServerLevel level, BlockPos pos) {
         ArmorStand armorStand = new ArmorStand(level, pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5);
