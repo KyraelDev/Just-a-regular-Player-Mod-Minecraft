@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ec5c7d9-7884-49b1-be4f-86d73f8b4cdd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/FakePlayerMobSpawner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/FakePlayerSpawner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/FakePlayerSpawner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/JustARegularPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/JustARegularPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/event/ArmorStandFireCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/event/ArmorStandFireCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/item/SpawnTotemItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/item/SpawnTotemItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-10.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-11.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-12.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-13.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-13.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-14.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-14.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-15.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-15.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-16.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-16.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-17.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-17.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-18.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-18.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-19.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-19.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-20.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-20.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-21.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-21.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-22.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-22.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-23.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-23.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-24.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-24.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-25.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-25.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-26.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-26.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-27.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-27.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-28.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-28.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-29.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-29.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-30.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-30.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-31.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-31.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-32.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-32.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-33.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-33.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-34.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-34.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-35.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-35.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-36.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-36.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-37.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-37.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-38.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-38.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-39.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-39.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-40.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-40.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-41.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-41.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-42.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-42.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-43.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-43.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-44.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-44.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-45.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-45.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-46.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-46.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-47.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-47.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-48.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-48.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-49.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-49.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-50.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-50.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-51.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-51.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-52.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-52.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-53.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-53.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-54.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-54.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-55.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-55.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-56.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-56.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-57.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-57.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-58.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-58.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-59.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-59.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-8.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-9.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/FakePlayerSpawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/FakePlayerSpawner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/JustARegularPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/JustARegularPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/ArmorStandFireCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/ArmorStandFireCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/SpawnTotemItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/SpawnTotemItem.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JARPMod-forge" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JARPMod-forge" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JARPMod-forge" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="11" />
+      <option value="12" />
+      <option value="13" />
+      <option value="14" />
+      <option value="15" />
+      <option value="16" />
+    </hideBySeverity>
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2yjXrDWbFBkqkLUYPHoAFXLJiBY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.C:/Users/marce/Desktop/Cartelle/Coding e Produttività/JARP Mod Forge/Just-a-regular-Player-Mod-Minecraft/JARPMod-forge/build.gradle.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.JARPMod-forge [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JARPMod-forge [runGameTestServer].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JARPMod-forge [runServer].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marce/Desktop/Cartelle/Coding e Produttività/JARP Mod Forge/Just-a-regular-Player-Mod-Minecraft/JARPMod-forge/src/main/resources/assets/jarpmod&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4091954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\Desktop\Cartelle\Coding e Produttività\JARP Mod Forge\Just-a-regular-Player-Mod-Minecraft\JARPMod-forge\src\main\resources\assets\jarpmod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.JARPMod-forge [runClient]">
+    <configuration name="JARPMod-forge [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan --stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JARPMod-forge [runGameTestServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runGameTestServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JARPMod-forge [runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.JARPMod-forge [runClient]" />
+        <item itemvalue="Gradle.JARPMod-forge [runGameTestServer]" />
+        <item itemvalue="Gradle.JARPMod-forge [runServer]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ec5c7d9-7884-49b1-be4f-86d73f8b4cdd" name="Changes" comment="" />
+      <created>1750349152260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750349152260</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:org.spongepowered:mixin" />
+    <option featureType="dependencySupport" implementationName="java:net.minecraftforge:forge" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JARPMod_forge$C__Users_marce_Desktop_Cartelle_Coding_e_Produttività_JARP_Mod_Forge_Just_a_regular_Player_Mod_Minecraft_JARPMod_forge_build_gradle.ic" NAME="$PROJECT_DIR$/build.gradle Coverage Results" MODIFIED="1750349296685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>

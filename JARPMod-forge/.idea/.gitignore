@@ -1,5 +1,37 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Environment-dependent path to Maven home directory
-/mavenHomeManager.xml
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+build/
+**/build/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Minecraft specific
+run/
+**/run/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.swp
+*.swo
+*~
+
+# Additional files
+.gradle/
+bin/
