@@ -2,15 +2,16 @@ package github.kyradev.jarpmod.command;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.context.CommandContext;
-import github.kyradev.jarpmod.FakePlayerSpawner;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
-import net.minecraftforge.common.util.FakePlayer;
+import net.minecraft.world.entity.decoration.ArmorStand;
 
 public class RemoveFakePlayerCommand {
+
+    private static final String TAG_FAKE_PLAYER_SPAWNER = "FakePlayerSpawner";
 
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
         dispatcher.register(
@@ -27,14 +28,13 @@ public class RemoveFakePlayerCommand {
         int removedCount = 0;
 
         for (Entity entity : level.getAllEntities()) {
-            if (entity instanceof FakePlayer fakePlayer) {
-                if (fakePlayer.getGameProfile().getName().equals("[JustARegularPlayer]")) {
-                    fakePlayer.remove(Entity.RemovalReason.DISCARDED);
+            if (entity instanceof ArmorStand armorStand) {
+                if (armorStand.getPersistentData().getBoolean(TAG_FAKE_PLAYER_SPAWNER)) {
+                    armorStand.remove(Entity.RemovalReason.DISCARDED);
                     removedCount++;
                 }
             }
         }
-
 
         final int removedCountFinal = removedCount;
 
@@ -43,6 +43,7 @@ public class RemoveFakePlayerCommand {
         } else {
             source.sendFailure(Component.literal("No fake player to remove."));
         }
+
         return 1;
     }
 }

@@ -36,7 +36,7 @@ public class SpawnTotemItem extends Item {
 
         BlockPos pos = context.getClickedPos().relative(context.getClickedFace());
 
-        // Usare la logica consolidata per spawnare fake player + armor stand
+        // Usa il metodo spawn aggiornato che crea solo l’ArmorStand con il tag FakePlayerSpawner
         FakePlayerSpawner.spawn(serverLevel, pos);
 
         if (player != null && !player.isCreative()) {
@@ -44,7 +44,7 @@ public class SpawnTotemItem extends Item {
         }
 
         if (player != null) {
-            player.displayClientMessage(Component.literal("Fake player and Armor Stand spawned!"), false);
+            player.displayClientMessage(Component.literal("Fake player Armor Stand spawned!"), false);
         }
 
         return InteractionResult.CONSUME;
