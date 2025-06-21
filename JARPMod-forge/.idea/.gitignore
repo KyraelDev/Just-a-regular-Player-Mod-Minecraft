@@ -42,6 +42,6 @@ Thumbs.db
 .gradle/
 bin/
 
-/JARPMod-forge/run
-/JARPMod-forge/.gradle
-/JARPMod-forge/run/logs
+JARPMod-forge/run
+JARPMod-forge/.gradle
+JARPMod-forge/run/logs
