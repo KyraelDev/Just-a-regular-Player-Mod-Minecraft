@@ -5,25 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ec5c7d9-7884-49b1-be4f-86d73f8b4cdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/FakePlayerMobSpawner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/FakePlayerSpawner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/FakePlayerSpawner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/JustARegularPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/JustARegularPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/event/ArmorStandFireCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/event/ArmorStandFireCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/item/SpawnTotemItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/item/SpawnTotemItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fml.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/forge-client.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2025-06-19_19.29.51-fml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2025-06-19_19.29.51-fml.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2025-06-19_20.48.43-server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2025-06-19_20.48.43-server.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/eula.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/eula.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-10.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-11.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-12.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-13.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-13.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-14.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-14.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-15.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-15.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-16.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-16.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-17.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-17.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-18.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-18.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-19.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-19.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-20.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-20.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-21.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-21.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-8.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-19-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-19-9.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-10.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-11.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-12.log.gz" afterDir="false" />
@@ -79,42 +90,85 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-58.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-58.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-59.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-59.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-60.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-60.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-61.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-61.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-8.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2025-06-20-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-20-9.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-10.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-11.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-12.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-8.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-06-21-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-06-21-9.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/FakePlayerSpawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/FakePlayerSpawner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/JustARegularPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/JustARegularPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/ArmorStandFireCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/ArmorStandFireCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/SpawnTotemItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/SpawnTotemItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-2.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-2.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/forge-server.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/screenshots/2025-06-20_02.21.34.png" beforeDir="false" afterPath="$PROJECT_DIR$/run/screenshots/2025-06-20_02.21.34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/DIM-1/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/DIM1/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/DIM1/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/serverconfig/forge-server.toml" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/serverconfig/forge-server.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/session.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
