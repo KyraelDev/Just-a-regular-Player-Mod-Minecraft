@@ -5,9 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ec5c7d9-7884-49b1-be4f-86d73f8b4cdd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/KeyBindings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/GuiEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/gui/EditArmorStandGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/network/PacketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/FakePlayerSpawner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/FakePlayerSpawner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/JustARegularPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/JustARegularPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/event/ArmorStandFireCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/event/ArmorStandFireCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/event/FakePlayerMobSpawner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/event/FakePlayerMobSpawner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/item/ModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/item/SpawnTotemItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/github/kyradev/jarpmod/item/SpawnTotemItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/FakePlayerMobSpawner.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/FakePlayerSpawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/FakePlayerSpawner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/JustARegularPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/JustARegularPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/RemoveFakePlayerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/command/SpawnFakePlayerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/ArmorStandFireCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/event/ArmorStandFireCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/FireStickItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/FireStickItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/SpawnTotemItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/kyradev/jarpmod/item/SpawnTotemItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

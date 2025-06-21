@@ -17,7 +17,7 @@ public class SpawnFakePlayerCommand {
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
         dispatcher.register(
                 Commands.literal("spawnfakeplayer")
-                        .requires(cs -> cs.hasPermission(2)) // permission level 2 = admin
+                        .requires(cs -> cs.hasPermission(2)) // livello permesso 2 = admin
                         .executes(SpawnFakePlayerCommand::execute)
         );
     }
@@ -29,7 +29,7 @@ public class SpawnFakePlayerCommand {
 
         ServerLevel level = (ServerLevel) player.level();
 
-        FakePlayerSpawner.spawn(level, new BlockPos((int) pos.x, (int) pos.y, (int) pos.z));
+        FakePlayerSpawner.spawn(level, new BlockPos((int) pos.x, (int) pos.y, (int) pos.z), player);
 
         source.sendSuccess(() -> Component.literal("Fake player spawned at your position."), true);
         return 1;

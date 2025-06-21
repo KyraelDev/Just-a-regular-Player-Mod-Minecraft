@@ -9,28 +9,42 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.server.level.ServerPlayer;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class FakePlayerSpawner {
 
     private static final String NAME = "Jarpie";
+    private static final int MAX_ARMOR_STANDS = 10;
+    private static final AtomicInteger spawnerCounter = new AtomicInteger(0);
 
-    public static void spawn(ServerLevel level, BlockPos pos) {
+    public static void spawn(ServerLevel level, BlockPos pos, ServerPlayer player) {
+        if (spawnerCounter.get() >= MAX_ARMOR_STANDS) {
+            if (player != null) {
+                player.displayClientMessage(net.minecraft.network.chat.Component.literal("Maximum number of Armor Stands reached!"), true);
+            }
+            return;
+        }
+
         ArmorStand armorStand = new ArmorStand(level, pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5);
-        armorStand.setInvisible(false);    // visibile ai player reali
-        armorStand.setInvulnerable(false); // vulnerabile
+        armorStand.setInvisible(false);
+        armorStand.setInvulnerable(false);
         armorStand.setNoGravity(false);
         armorStand.setCustomName(net.minecraft.network.chat.Component.literal(NAME));
         armorStand.setCustomNameVisible(true);
 
-        // Applico la testa del player custom (come prima)
         ItemStack head = new ItemStack(Items.PLAYER_HEAD);
         var skinProfile = getProfileWithSkin(level, "Kyrael_");
         applyPlayerProfileToHead(head, skinProfile);
         armorStand.setItemSlot(EquipmentSlot.HEAD, head);
 
-        // Tag NBT per riconoscerlo come FakePlayerSpawner
+        // Add unique identifier number
+        int uniqueNumber = spawnerCounter.getAndIncrement();
+
         CompoundTag tag = armorStand.getPersistentData();
         tag.putBoolean("FakePlayerSpawner", true);
+        tag.putInt("FakePlayerSpawnerNumber", uniqueNumber);
 
         level.addFreshEntity(armorStand);
     }
@@ -72,5 +86,21 @@ public class FakePlayerSpawner {
 
         tag.put("SkullOwner", skullOwner);
         head.setTag(tag);
+    }
+
+    public static void decrementCounter() {
+        spawnerCounter.decrementAndGet();
+    }
+
+    public static void resetCounter() {
+        spawnerCounter.set(0);
+    }
+
+    // Metodo per gestire la rimozione
+    // Assicurati di chiamare questo quando un'entity viene rimossa
+    public static void handleRemoval(ArmorStand armorStand) {
+        if (armorStand.getPersistentData().getBoolean("FakePlayerSpawner")) {
+            decrementCounter();
+        }
     }
 }

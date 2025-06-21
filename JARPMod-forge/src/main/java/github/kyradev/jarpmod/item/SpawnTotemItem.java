@@ -9,6 +9,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
 
 public class SpawnTotemItem extends Item {
 
@@ -24,7 +25,7 @@ public class SpawnTotemItem extends Item {
         if (level.isClientSide()) {
             // Feedback client-side
             if (player != null) {
-                player.displayClientMessage(Component.literal("Hai cliccato il totem (client side)"), true);
+                player.displayClientMessage(Component.literal("You clicked the totem (client side)"), true);
             }
             return InteractionResult.SUCCESS;
         }
@@ -36,15 +37,15 @@ public class SpawnTotemItem extends Item {
 
         BlockPos pos = context.getClickedPos().relative(context.getClickedFace());
 
-        // Usa il metodo spawn aggiornato che crea solo l’ArmorStand con il tag FakePlayerSpawner
-        FakePlayerSpawner.spawn(serverLevel, pos);
+        if (player instanceof ServerPlayer serverPlayer) {
+            // Usa il metodo spawn aggiornato
+            FakePlayerSpawner.spawn(serverLevel, pos, serverPlayer);
 
-        if (player != null && !player.isCreative()) {
-            context.getItemInHand().shrink(1);
-        }
+            if (!serverPlayer.isCreative()) {
+                context.getItemInHand().shrink(1);
+            }
 
-        if (player != null) {
-            player.displayClientMessage(Component.literal("Fake player Armor Stand spawned!"), false);
+            serverPlayer.displayClientMessage(Component.literal("Fake player Armor Stand spawned!"), false);
         }
 
         return InteractionResult.CONSUME;

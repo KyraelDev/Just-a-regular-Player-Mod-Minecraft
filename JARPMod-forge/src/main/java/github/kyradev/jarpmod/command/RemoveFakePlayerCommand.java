@@ -8,6 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.decoration.ArmorStand;
+import github.kyradev.jarpmod.FakePlayerSpawner; // Assicurati che l'import sia corretto
 
 public class RemoveFakePlayerCommand {
 
@@ -35,6 +36,9 @@ public class RemoveFakePlayerCommand {
                 }
             }
         }
+
+        // Reset the spawnerCounter to zero
+        FakePlayerSpawner.resetCounter();
 
         final int removedCountFinal = removedCount;
 

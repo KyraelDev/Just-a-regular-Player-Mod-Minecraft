@@ -1,29 +1,31 @@
-modLoader="javafml"
-loaderVersion="[47,)"
-license="MIT"
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
 
 [[mods]]
-modId="jarpmod"
-version="1.0.0"
-displayName="Just a Regular Player"
-authors="KyraDev"
-description='''This mod lets you spawn a fake player entity to keep mob farms running without the need to stay afk so you can enjoy the game more.'''
-logoFile="assets/jarpmod/logo.png" # se hai un logo da mostrare nel launcher/mod list
-displayURL="https://github.com/KyraDev/JustARegularPlayer" # link al repo o pagina mod
-credits="Created by KyraDev"
-issueTrackerURL="https://github.com/KyraDev/JustARegularPlayer/issues" # se usi GitHub issues
-updateJSONURL="https://raw.githubusercontent.com/KyraDev/JustARegularPlayer/master/update.json" # opzionale, per auto update
+modId = "jarpmod"
+version = "1.1.0"
+displayName = "Just a Regular Player"
+authors = "KyraDev"
+description = '''
+"Just a Regular Player" is your solution for automating mob farms while you focus on adventure. Spawn an entity that mimics player presence, keeping your farms running smoothly without AFK. Ideal for players looking to optimize resource gathering. Easy to set up and perfect for enhancing your gameplay experience. Explore, build, and conquer without limits!
+'''
+logoFile = "assets/jarpmod/logo.png"
+displayURL = "https://github.com/KyraelDev/JustARegularPlayer"
+credits = "Created by KyraDev"
+issueTrackerURL = "https://github.com/KyraDev/JustARegularPlayer/issues"
+updateJSONURL = "https://raw.githubusercontent.com/KyraelDev/JustARegularPlayer/master/update.json"
 
 [[dependencies.jarpmod]]
-modId="forge"
-mandatory=true
-versionRange="[47,)"
-ordering="NONE"
-side="BOTH"
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
 
 [[dependencies.jarpmod]]
-modId="minecraft"
-mandatory=true
-versionRange="[1.20.1]"
-ordering="NONE"
-side="BOTH"
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
