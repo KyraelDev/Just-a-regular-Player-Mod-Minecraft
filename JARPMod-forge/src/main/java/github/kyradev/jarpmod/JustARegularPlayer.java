@@ -4,10 +4,8 @@ import com.mojang.logging.LogUtils;
 import github.kyradev.jarpmod.command.RemoveFakePlayerCommand;
 import github.kyradev.jarpmod.command.SpawnFakePlayerCommand;
 import github.kyradev.jarpmod.event.ArmorStandFireCheck;
-import github.kyradev.jarpmod.event.GuiEventHandler;
 import github.kyradev.jarpmod.item.CreativeTabInit;
 import github.kyradev.jarpmod.item.ModItems;
-import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -35,7 +33,6 @@ public class JustARegularPlayer {
 
         // Registrazione degli eventi sul Forge event bus
         net.minecraftforge.common.MinecraftForge.EVENT_BUS.register(ArmorStandFireCheck.class);
-        net.minecraftforge.common.MinecraftForge.EVENT_BUS.register(GuiEventHandler.class);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
@@ -46,7 +43,6 @@ public class JustARegularPlayer {
         // Registra i key bindings durante il setup client
         event.enqueueWork(() -> {
             IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-            modEventBus.addListener(KeyBindings::registerKeyMappings);
         });
     }
 
